@@ -9,6 +9,7 @@ h1{
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 p{
   color: hsla(0, 0%, 100%, 0.75);
@@ -16,17 +17,17 @@ p{
 button{
   margin-top: 25%;
 }
+.container{
+  padding-top: 10%;
+  max-width: 1020px;
+}
 .marginBottom{
   margin-bottom: 17%;
 }
 .pad0{
   padding: 0;
 }
-.v-aBottom{
-  vertical-align: bottom;
-}
 .col-lg-4{
-
   max-width: 340px;
 }
 
@@ -34,7 +35,6 @@ button{
 .card{
   margin: 0;
   border: none;
-  background-color: red;
   max-width: 340px;
 }
 .card-body{
@@ -43,12 +43,14 @@ button{
 }
 .sedans{
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
 }
 .suvs{
   background-color: hsl(184, 100%, 22%);
 }
 .luxury{
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
 }
 
 /*CARDS*/
@@ -68,3 +70,26 @@ button{
 /*EXTRA*/
 .attribution {font-size: 11px; text-align: center;}
 .attribution a {color: hsl(228, 45%, 44%);}
+
+
+
+@media only screen and (max-width: 560px) {
+  h1{
+    font-size: 2.5rem;
+  }
+  button{
+    margin-top: 5%;
+  }
+  .col-lg-4{
+    max-width: 280px;
+  }
+  .sedans{
+    border-radius: 10px 10px 0 0;
+  }
+  .luxury{
+    border-radius: 0 0 10px 10px;
+  }
+  .marginBottom{
+    margin-bottom: 10%;
+  }
+}
