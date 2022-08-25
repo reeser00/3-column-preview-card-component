@@ -1,0 +1,70 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button{
+  margin-top: 25%;
+}
+.marginBottom{
+  margin-bottom: 17%;
+}
+.pad0{
+  padding: 0;
+}
+.v-aBottom{
+  vertical-align: bottom;
+}
+.col-lg-4{
+
+  max-width: 340px;
+}
+
+/*CARDS*/
+.card{
+  margin: 0;
+  border: none;
+  background-color: red;
+  max-width: 340px;
+}
+.card-body{
+  padding: 40px;
+  height: 50;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+}
+
+/*CARDS*/
+.sedansB{
+  color: hsl(31, 77%, 52%);
+  font-size: 15px;
+}
+.suvsB{
+  color: hsl(184, 100%, 22%);
+  font-size: 15px;
+}
+.luxuryB{
+  color: hsl(179, 100%, 13%);
+  font-size: 15px;
+}
+
+/*EXTRA*/
+.attribution {font-size: 11px; text-align: center;}
+.attribution a {color: hsl(228, 45%, 44%);}
